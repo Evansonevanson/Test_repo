@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Task</title>
+</head>
+<body>
+    <div class="parent_container">
+
+        <section class="left">
+        </section>
+
+
+
+        <section class="right">
+            <div class="header_container">
+                <div class="header">
+                    <h3>New Project</h3>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="paragraph">
+                    <p>Get started by filling in the information below to create your new project.</p>
+                </div>
+            </div>
+
+            <div class="middle_container">
+
+                <div class="form_container">
+                    <form>
+                        <label for="project">
+                            <h4>
+                                Project Name
+                            </h4>
+                        </label>
+                        <input type="text" name="project" id="project">
+                    </form>
+                    <form>
+                        <label for="description">
+                            <h4>
+                                Description
+                            </h4>
+                        </label>
+                        <textarea name="description" id="description"></textarea>
+                    </form>
+                </div>
+
+                <div class="team_container">
+                    <h4>Team Members</h4>
+                    <div class="members">
+                        <div class="member avatar1 "></div>
+                        <div class="member avatar2 "></div>
+                        <div class="member avatar3 "></div>
+                        <div class="member avatar4 "></div>
+                        <div class="member avatar5 "></div>
+                        <div class="member_icon">
+                            <img src="./icon/plus.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="privacy_container">
+                    <h4>Privacy</h4>
+                    <div class="radio_container">
+                        <div class="radio">
+                            <input type="radio" name="privacy" id="public" checked>
+                        
+                            <label for="public">
+                               <h4>Public access</h4>
+                               <p>Everyone with the link will see this project.</p>
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="privacy" id="private_members">
+                        
+                            <label for="private_members">
+                               <h4>Private to project members</h4>
+                               <p>Only members of this project would be able to access.</p>
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="privacy" id="private_you">
+                        
+                            <label for="private_you">
+                               <h4>Private to you</h4>
+                               <p>You are the only one able to access this project.</p>
+                            </label>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="link_container">
+                    <div class="copy_link">
+                        <i class="fa-solid fa-link"></i>
+                        <a href="#">Copy link</a>
+                    </div>
+                    <div class="learn_more">
+                         <div class="question">
+                            <i class="fa-solid fa-question"></i>
+                         </div>
+                        <a href="#">Learn more about sharing</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="button_container">
+                <button class="cancel">
+                    <h4>Cancel</h4>
+                </button>
+                <button class="save">
+                    <h4>Save</h4>
+                </button>
+            </div>
+        </section>
+
+
+    </div>
+</body>
+</html>
+
+
+
+
+
+<!-- 
+<div>
+    <div class="radio">
+                            <input type="radio" name="privacy" id="private_members">
+                            
+                            <label for="private_members">
+                               <h4>Private to project members</h4>
+                               <p>Only members of this project would be able to access.</p>
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="privacy" id="private_you">
+                            
+                            <label for="private_you">
+                               <h4>Private to you</h4>
+                               <p>You are the only one able to access this project.</p>
+                            </label>
+                        </div>
+</div> -->
